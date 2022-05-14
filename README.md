@@ -4,8 +4,6 @@
 
 __Date:__ May 14, 2022
 
-__Author:__ Nurk READMEs
-
 __Source:__ [Tango](https://app.tango.us/app/workflow/0c24b4f9-70bb-4dec-a1b0-8314418ad400?utm_source=markdown&utm_medium=markdown&utm_campaign=workflow%20export%20links)
 
 ***
