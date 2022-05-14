@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@font-face {
+  font-family: "Linux Libertine";
+  src: url(https://rixxyplayer-www.rixthetyrunt.repl.co/LinuxLibertine.woff);
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Linux Libertine', serif;
+	font-weight: unset;
+}
+
+h1 {
+	font-style: italic; /* More like Wikipedia! */
+}
+
+h3, h4, h5, h6 {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+
+path {
+	display: block;
+}
+
+p {
+	display: block;
+	margin: 16px 0;
+}
+
+a {
+	color: Black;
+	text-decoration: none;
+}
+
+path {
+	font-size: 13px;
+}
+
+hr {
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: Black;
+}
+
+info, info.left {
+	border: 1px solid #c8ccd1;
+	float: left;
+	display: block;
+	padding: 3px;
+}
+
+info.right {
+	float: right;
+}
+
+info img {
+	width: 180px;
+	margin: 0;
+}
+
+info p {
+	font-size: 12px;
+	margin: 0;
+	display: block;
+}

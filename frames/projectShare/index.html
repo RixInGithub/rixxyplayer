@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+	<head>
+		<meta charset="utf-8">
+		<meta name="robots" content="noindex">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+		<title>RixxyPlayer || Share your Project</title>
+		<link href="/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<code id="rixxyplayerCanvas" style="display: block;height: calc(100% - 16px) !important;margin: 0 !important;"></code>
+		<script src="https://kit.fontawesome.com/7aedd1ede3.js" crossorigin="anonymous"></script>
+		<script src="/execRixp.js"></script>
+		<script>
+function getQueryParams(params) {
+  let url = window.location.href
+  let href = url
+  let reg = new RegExp('[?&]' + params + '=([^&#]*)', 'i')
+  let queryString = reg.exec(href)
+  return queryString ? queryString[1] : null
+}
+
+js = decodeURIComponent(getQueryParams("js"))
+if (js !== null) {
+	execRixp(js)
+}
+		</script>
+	</body>
+</html>

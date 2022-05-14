@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body, html {
+	background-color: White;
+	height: 100%;
+	width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+}
+
+* {
+	-webkit-tap-highlight-color: Transparent;
+	/* -webkit-text-size-adjust: none;
+  text-size-adjust: none; */
+}
+
+/* @supports (-webkit-overflow-scrolling: touch) {
+   input {
+     font-size: 16px;
+   }
+} */
+
+nav {
+	background-color: White;
+}
+
+code#rixxyplayerCanvas {
+  margin-top: 16px;
+  background-color: #121212;
+  color: White;
+  font-family: "Ubuntu Mono", "Consolas", monospace;
+  padding: 8px;
+  min-height: 1em;
+  display: block;
+  color-scheme: dark;
+  overflow-y: scroll;
+}
+
+a {
+	text-decoration: none;
+	color: Black;
+}
+
+nav::selection {
+	background-color: Transparent;
+}
+
+nav::-moz-selection {
+	background-color: Transparent;
+}
+
+nav *::selection {
+	background-color: Transparent;
+}
+
+nav *::-moz-selection {
+	background-color: Transparent;
+}
+
+nav div#tabs {
+	display: inline-block;
+}
+
+nav div#tabs span {
+	padding: 8px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+nav div#tabs span.tab:hover {
+	background-color: Gainsboro;
+}
+
+nav div#tabs span.tab {
+	background-color: #eeeeee;
+	cursor: pointer;
+}
+
+nav div#tabs span.openTab {
+	background-color: DarkGrey;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+nav div#tabs span.openTab:hover {
+	background-color: Grey;
+}
+
+nav div#tabs span.openTab:active {
+	background-color: DarkGrey;
+	cursor: default;
+}
+
+nav div#tabs span.tab:active {
+	background-color: #eeeeee;
+	cursor: default;
+}
+
+nav div#settings {
+	float: right;
+}
+
+nav div#settings span#start {
+	background-image: linear-gradient(#eeeeee, Gainsboro);
+	border-radius: 5px;
+	padding: 4px;
+	cursor: pointer;
+	height: 8px;
+}
+
+nav div#settings span#start[disabled] {
+	opacity: 0.4;
+	cursor: no-drop;
+}
+
+nav div#settings span#start:active {
+	background-image: linear-gradient(Gainsboro, #eeeeee);
+}
+
+nav div#settings span#stop {
+	background-image: linear-gradient(#eeeeee, Gainsboro);
+	border-radius: 5px;
+	padding: 4px;
+	cursor: pointer;
+	height: 8px;
+}
+
+nav div#settings span#stop:active {
+	background-image: linear-gradient(Gainsboro, #eeeeee);
+}
+
+nav div#uploader {
+	display: inline-block;
+	float: right;
+	margin-left: 4px;
+}
+
+nav div#uploader span {
+	background-color: #eeeeee;
+	cursor: pointer;
+	padding: 8px;
+	padding-bottom: 3px;
+	padding-top: 1px;
+}
+
+div#rixxyplayerCode {
+	margin-top: 16px;
+	background-color: #121212;
+	color: White;
+	font-family: "Ubuntu Mono", "Consolas", monospace;
+	padding: 8px;
+	display: block;
+	color-scheme: dark;
+	overflow: auto;
+}
+
+:focus-visible {
+	outline: none;
+}
